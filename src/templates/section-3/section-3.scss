@@ -1,0 +1,30 @@
+.section-3 {
+  background-color: $white;
+}
+
+.section-3__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-3__list_item {
+  margin-right: 130px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.section-3__list_item_title {
+  font-weight: 900;
+  font-size: 60px;
+  color: $pink;
+  line-height: 1;
+}
+
+.section-3__list_item_subtitle {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #282828;
+}
