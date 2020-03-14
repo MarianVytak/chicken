@@ -1,0 +1,25 @@
+.section-1 {
+  padding: 55px 0;
+  background-image: url(../../assets/img/bg/section-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-1__form {
+  width: 100%;
+  max-width: 410px;
+  padding: 35px 45px 40px 40px;
+  box-sizing: border-box;
+  background-color: rgba($green, .85);
+  color: $white;
+  .input {
+    border-radius: 0;
+    background-color: #589040;
+    color: $white;
+  }
+}
+
+.section-1__title {
+  font-size: 26px;
+  text-transform: uppercase;
+}

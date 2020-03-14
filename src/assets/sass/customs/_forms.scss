@@ -1,5 +1,6 @@
 .form_group {
   position: relative;
+  margin-bottom: 20px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -32,9 +33,9 @@ label {
   box-sizing: border-box;
   border: none;
   border-radius: 0;
-  background-color: #003474;
+  background-color: $white;
   font-size: 16px;
-  color: $white;
+  color: $black;
   &:focus {
     outline: none;
   }
@@ -47,8 +48,8 @@ label {
   justify-content: center;
   margin-top: 35px;
   border-radius: 3px;
-  background-color: $green;
-  font-family: 'Roboto Slab', serif;
+  background-color: $pink;
+  font-family: 'Roboto', serif;
   font-size: 13px;
   color: $white;
   text-transform: uppercase;
