@@ -15,10 +15,10 @@ label {
     font-size: 12px;
   }
   &.form__input_error {
-    color: red;
+    color: $white;
   }
   &.form__input_success {
-    color: green;
+    color: $white;
   }
 }
 .label {
