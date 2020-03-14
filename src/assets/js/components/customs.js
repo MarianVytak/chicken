@@ -7,7 +7,7 @@ $(function () {
         e.preventDefault();
 
         let navScroll = $(this).attr('href'),
-            navScrollBlock = $(navScroll).offset().top;
+            navScrollBlock = $(navScroll).offset().top - 150;
         $('html, body').animate({
             scrollTop: navScrollBlock
         }, 2000);
